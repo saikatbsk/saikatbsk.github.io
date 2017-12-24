@@ -14,7 +14,7 @@ picture: assets/images/face_small.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: /public/Saikat_Basak_cv.pdf
+resume-url: https://drive.google.com/open?id=1Q_sfUPbmD15muyHQk0GPPYfWbirMrf4W
 
 url: http://saikatbasak.in
 # your url: http://USERNAME.github.io
