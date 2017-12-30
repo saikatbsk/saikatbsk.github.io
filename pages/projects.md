@@ -207,7 +207,7 @@ subtitle: Stuff I've Built
     </div>
     <div class="col-md-6">
     Yet another flappy bird clone!<br>
-    Play it <a href="/public/games/crappybird/">here</a>.
+    Play it <a href="/public/games/CrappyBird/">here</a>.
     </div>
 </div>
 
