@@ -14,30 +14,64 @@ use-site-title: true
     font-weight: bold;
     font-size: 16px;
 }
+#course-section {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+#course-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#news-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 </style>
 
 <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <h2>What I'm up to</h2>
-        <ul>
-            <li>
-                Published <a href="https://www.packtpub.com/big-data-and-business-intelligence/hands-artificial-intelligence-tensorflow-video" target="_blank">Hands-on Artificial Intelligence with TensorFlow [Video Course]</a> with <u>Packt Publishing Limited</u>.
-            </li>
-            <li>
-                I have written an article on <u>how can blockchain help Aadhaar ensure privacy and transparency</u>.
-                Read the full article <a href="http://experiencesutra.com/insights/how-can-blockchain-help-aadhaar-ensure-privacy-and-transparency/" target="_blank">here</a>.
-            </li>
-        </ul>
+    <div class="col-lg-12 col-md-12">
+        <h2>Courses</h2>
+        <div class="row" id="course-section">
+            <div class="col-md-4">
+                <a href="https://www.packtpub.com/big-data-and-business-intelligence/hands-artificial-intelligence-tensorflow-video" target="_blank">
+                    <img id="course-banner" src="img/posts/V10371_low_0.png">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <ul>
+                    <li>Practical examples and step-by-step instructions.</li>
+                    <li>Build and optimize machine learning models.</li>
+                    <li>Deep learning for computer vision.</li>
+                    <li>Generative adversarial nets.</li>
+                    <li>Deep reinforcement learning.</li>
+                </ul>
+            </div>
+            <p class="text-center">
+                <a class="btn btn-primary btn-lg" href="https://www.packtpub.com/big-data-and-business-intelligence/hands-artificial-intelligence-tensorflow-video" target="_blank">
+                    Try Course! &nbsp;&raquo;
+                </a>
+            </p>
+        </div>
 
         <h2>News</h2>
-        <ul>
-            <li>
-                The <span class="SapientRazorfish">SapientRazorfish<span style="color: blue">_</span></span>
-                Kepler Lab Team and the innovations have been featured in Mint Lounge,
-                Hindustan Times - Fri, Nov 17 2017.
-                Read the full article <a href="http://www.livemint.com/Science/fHRuBDvrMCNCeMs8Xx3LHP/Kepler-a-touch-of-innovation.html" target="_blank">here</a>.
-            </li>
-        </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="http://www.livemint.com/Science/fHRuBDvrMCNCeMs8Xx3LHP/Kepler-a-touch-of-innovation.html" target="_blank">
+                    <img id="news-banner" src="img/posts/ht.jpg">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <span class="SapientRazorfish">SapientRazorfish<span style="color: blue">_</span></span>
+                Kepler Lab Team in Mint Lounge, Hindustan Times - Fri, Nov 17 2017.
+            </div>
+        </div>
 
         <h2>Tweets</h2>
         <a class="twitter-timeline" href="https://twitter.com/saikatbsk?ref_src=twsrc%5Etfw" height="600">Tweets by saikatbsk</a>
