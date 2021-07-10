@@ -18,5 +18,4 @@ subtitle: It's All About Me. Deal With It.
 
 > "What I cannot create, I do not understand." – Richard Feynman
 
-Driven by the passion for science and technology - skeptic and critical thinker - keen on tinkering,
-breaking and creating - a believer in the Church of GNU and Software Freedom - avid Sci-Fi fan and gamer by heart.
+Data scientist, AI research engineer, authored books and courses on artificial intelligence and machine learning.
